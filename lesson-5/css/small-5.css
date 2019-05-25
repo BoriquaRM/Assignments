@@ -1,0 +1,194 @@
+html, main, body, header, footer { 
+	margin: 0 auto; 
+	padding: 0px; 
+	width: 590px;
+	text-align: center; 
+	background-color: #ffffff;} 
+hr {
+	margin: 3px;
+	color: #ffffff;}	
+
+.dropbutton {
+	background-color: #4CAF50;
+	color: #ffffff;
+	padding: 16px;
+	font-size: 16px;
+	margin: auto;}
+.dropdownmenu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: rgb(120,210,150);
+	position: relative;
+	display: inline-block;}
+.dropdownmenu-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  	margin: 0px;
+	padding: 0px;
+	width: auto;
+	background-color: rgb(120,210,150);
+	position: relative;}
+.dropdownmenu-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;}
+.dropdownmenu-content a:hover {
+	background-color: rgb(80,170,110);
+	color: #ffffff;}
+.dropdownmenu:hover .dropdownmenu-content {
+	display: block;}
+.dropdownmenu:hover .dropbutton {
+	background-color: #3e8e41;}
+
+header {
+	padding-bottom: 1px;}
+.title {
+	display: inline-block;
+	background-color: #ffffff; 
+	height: 166px;
+	width: auto;
+	padding: 0px; 
+	margin: 0px;}
+.motto {
+	font-size: 1.2em;
+	margin-top: -25px;
+	margin-left: 80px;
+	text-shadow: -1px -1px 1px #ffffff;}
+header img {
+	max-width: 480px;}
+header h1 {
+	margin-top: -110px;
+	margin-left: 50px;
+	font-family: Matura MT Script Capitals, sans-serif;
+	font-size: 3.5em;
+	color: rgb(100,190,130);
+	-webkit-text-stroke: 1px #6c6969;
+	text-shadow: 1px 1px 3px #000000;}
+p em {
+	color: red;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Egyptian Slate Std, sans-serif;
+	font-size: 2.5em;
+	color: rgb(100,190,130);
+	-webkit-text-stroke: 1px #6c6969;
+	text-shadow: -1px -1px 1px #000000;
+	margin-bottom: 5px;}
+.block {
+	width: auto;
+	background-color: rgb(100,190,130); 
+	padding: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;}
+.block img {
+	max-width: 100%;
+	z-index: -1;}
+.block p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffffff;}
+.blockinside {
+	display: inline-block}
+.blockinside img {
+	max-width: 100%;}
+.column1, .column2, .column3, .column4, .column5 {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 12px;
+	display: inline-block;
+	margin: 5px;
+	width: 50px;
+	min-height: 50px;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px 20px 20px 20px;
+	line-height: 1.1;
+	box-shadow: inset 0 0 10px #000000;}
+.column1 p, .column2 p, .column3 p, .column4 p, .column5 p {
+	color: #000000;
+	margin-top: 0px;}
+.article {
+	text-align: center;
+	background-color: #ecfaee;
+	padding: 15px;
+	display: inline-block;
+	margin: 5px;
+	margin-top: 20px;
+	width: auto;
+	min-height: 50px;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px 20px 20px 20px;
+	line-height: 1.1;
+	box-shadow: inset 0 0 10px #000000;}
+.article p {
+	text-align: justify;}
+footer {
+	border-radius: 0px 0px 0px 0px;
+	color: #ffffff;
+	margin-top: 20px;
+	background-color: rgb(100,190,130);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;}
+footer span {
+	font-size: 150%;
+	color: #ffffff;}
+footer p {
+	font-size: 120%;}
+.socialmedia {
+	display: inline-block;
+	text-align: left;}
+.socialmedia img {
+	width: 40px;}
+.socialmedia span {
+	padding: 5px;}
+	
+/* MOBILE PHONE SETTINGS*/	
+@media screen and (max-width: 600px) {
+	.navbar {
+		display: none;}
+}
+
+/* LAPTOP-DESKTOP SETTINGS */
+@media screen and (min-width: 601px) {
+	html, main, body, header, footer, .navbar {
+		width: auto;}
+	.dropbutton, .dropdownmenu, .dropdownmenu-content {
+		display: none;}
+	header {
+		margin-top: 50px;}
+	.navbar {
+		background-color: rgb(100,190,130);
+		position: fixed;
+		top: 0;}
+	.navbar a {
+		float: left;
+		display: inline;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 15px 15px;
+		text-decoration: none;
+		font-size: 17px;
+		width: auto;}
+	.navbar a:hover {
+		background: #ddd;
+		color: black;}
+		background-color: #ffffff; 
+	.article {
+		width: auto;}
+
+
+}
