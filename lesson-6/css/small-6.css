@@ -89,8 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .blockinside img {
 	max-width: 100%;
 	border: none;
-	border-width: none;
-	border-color: none;
+	border-width: 0;
 	box-shadow: none;}
 .block p {
 	margin-top: 0px;
@@ -224,5 +223,3 @@ footer p {
 	.article {
 		width: 800px;}
 }
-		
-		
