@@ -169,14 +169,12 @@ iframe {
 	'menu main main main right right'
 	'menu footer footer footer footer footer';
 	grid-gap: 10px;
-	max-width: }
+	max-width: 2000px}
 .grid-container > div {
 	background-color: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	padding: 20px 0;
 	font-size: 30px;}
-.grid-item img {
-	max-width: auto; }
 .grid-item {
 	text-align: center;
 	background-color: #ffffff;
