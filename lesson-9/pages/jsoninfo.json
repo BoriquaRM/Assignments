@@ -1,14 +1,9 @@
 {
-  "squadName" : "Towns in Idaho",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
+  "squadName" : "Towns in Idaho"[
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Preston",
+      "age" : "Home of Napoleon Dynamite.",
+      "secretIdentity" : 1866,
       "powers" : [
         "Radiation resistance",
         "Turning tiny",
@@ -16,9 +11,9 @@
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "name" : "Soda Springs",
+      "age" : "Historic Oregon Trail Oasis. The Soda is on Us.",
+      "secretIdentity" : 1858,
       "powers" : [
         "Million tonne punch",
         "Damage resistance",
@@ -26,9 +21,9 @@
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "name" : "Fish Haven",
+      "age" : "This is Fish Heaven.",
+      "secretIdentity" : 1864,
       "powers" : [
         "Immortality",
         "Heat Immunity",
