@@ -39,10 +39,10 @@ function populate(jsonObj) {
         var population1 = 'Population: ' + towns[3].currentPopulation;
         var rainfall1 = 'Annual rainfall: ' + towns[3].averageRainfall;
 
-        document.getElementById("m").innerHTML = motto1;
-        document.getElementById("f").innerHTML = founded1;
-        document.getElementById("p").innerHTML = population1;
-        document.getElementById("r").innerHTML = rainfall1;
+        document.getElementById("mo").innerHTML = motto;
+        document.getElementById("fo").innerHTML = founded;
+        document.getElementById("po").innerHTML = population;
+        document.getElementById("ra").innerHTML = rainfall;
     }
 
     request.onerror = function (error) {
