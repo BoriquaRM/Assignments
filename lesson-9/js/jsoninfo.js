@@ -1,4 +1,4 @@
-var requestURL = 'https://raw.githubusercontent.com/BoriquaRM/assignments/master/lesson-9/pages/towninfo.json';
+var requestURL = 'https://raw.githubusercontent.com/BoriquaRM/assignments/master/lesson-9/pages/towninfo.js';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
