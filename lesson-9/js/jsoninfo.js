@@ -1,51 +1,55 @@
-var requestURL = 'https://raw.githubusercontent.com/BoriquaRM/assignments/master/lesson-9/pages/towninfo.json';
+var section = document.querySelector('section');
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
 var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-request.onload = function () {
-    var weatherData = request.response;
-    populate(weatherData);
-    populate2(weatherData);
-}
-
-function populate(jsonObj) {
-    var towns = jsonObj["towns"];
-    for (var x = 0; x < towns.length; x++) {
-
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+		var townInfo = request.response;
+		showInfo(townInfo);}
+    
+function showInfo(jsonObj) {
+    var info = jsonObj['towns'];
+    for (var i = 0; i < info.length; i++) {
+        if (i === 2) { continue; }
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myH3 = document.createElement('h3');
         var myP1 = document.createElement('p');
         var myP2 = document.createElement('p');
         var myP3 = document.createElement('p');
         var myP4 = document.createElement('p');
+        var myList = document.createElement('ul');
 
-        var motto = document.createTextNode('Motto: ' + towns[x].motto);
-        var founded = document.createTextNode('Year founded: ' + towns[x].yearFounded);
-        var population = document.createTextNode('Population: ' + towns[x].currentPopulation);
-        var rainfall = document.createTextNode('Annual rainfall: ' + towns[x].averageRainfall);
+		/*Name of Town*/
+        myH2.textContent = info[i].name;
+        /*Town Motto*/
+		myH3.textContent = '"' + info[i].motto + '"';
+        /*Year of Founding*/
+		myP1.textContent = 'Year Founded: ' + info[i].yearFounded;
+        /*Current Population*/
+		myP2.textContent = 'Current Population: ' + info[i].currentPopulation;
+        /*Average Rainfall*/
+		myP3.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
+        /*Upcoming Events*/
+		myP4.textContent = 'Upcoming Events: ';
 
-        myP1.appendChild(motto);
-        myP2.appendChild(founded);
-        myP3.appendChild(population);
-        myP4.appendChild(rainfall);
+        var townEvents = info[i].events;
+        for (var x = 0; x < townEvents.length; x++) {
+            if (i === 2) { continue; }
+            var listItem = document.createElement('li');
+            listItem.textContent = townEvents[x];
+            myList.appendChild(listItem);  }
 
-        document.getElementsByClassName('data')[x].appendChild(myP1);
-        document.getElementsByClassName('data')[x].appendChild(myP2);
-        document.getElementsByClassName('data')[x].appendChild(myP3);
-        document.getElementsByClassName('data')[x].appendChild(myP4);
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myH3);
+        myArticle.appendChild(myP1);
+        myArticle.appendChild(myP2);
+        myArticle.appendChild(myP3);
+		myArticle.appendChild(myP4);
+        myArticle.appendChild(myList);
 
-        var motto1 = 'Motto: ' + towns[3].motto;
-        var founded1 = 'Year founded: ' + towns[3].yearFounded;
-        var population1 = 'Population: ' + towns[3].currentPopulation;
-        var rainfall1 = 'Annual rainfall: ' + towns[3].averageRainfall;
-
-        document.getElementById("mo").innerHTML = motto;
-        document.getElementById("fo").innerHTML = founded;
-        document.getElementById("po").innerHTML = population;
-        document.getElementById("ra").innerHTML = rainfall;
-    }
-
-    request.onerror = function (error) {
-        alert(error);
+        section.appendChild(myArticle);
     }
 }

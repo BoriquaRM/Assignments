@@ -1,4 +1,44 @@
 {
+  "squadName" : "Towns in Idaho"[
+    {
+      "name" : "Preston",
+      "age" : "Home of Napoleon Dynamite.",
+      "secretIdentity" : 1866,
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
+    {
+      "name" : "Soda Springs",
+      "age" : "Historic Oregon Trail Oasis. The Soda is on Us.",
+      "secretIdentity" : 1858,
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name" : "Fish Haven",
+      "age" : "This is Fish Heaven.",
+      "secretIdentity" : 1864,
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}
+
+
+
+
+{
   "towns" : [
   {
     "name": "Preston",
@@ -39,3 +79,7 @@
   }
  ]
 }
+
+
+
+
