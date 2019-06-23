@@ -1,6 +1,18 @@
 {
   "towns" : [
   {
+    "name": "Franklin",
+    "motto": "Where you will grow!",
+    "yearFounded": 1788,
+    "currentPopulation": 30458,
+    "averageRainfall": 21,
+    "events" : [
+      "March 4: March to the Drum of Donuts",
+      "September 5 - 11: Founder Days",
+      "December 1 - 26: Christmas in the Heart"
+    ]
+  },
+  {
     "name": "Fish Haven",
     "motto": "This is Fish Heaven.",
     "yearFounded": 1864,
