@@ -1,6 +1,6 @@
 /*Request API with CITYID*/
 let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a04e508674b6db51e279599363753e7a';
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a04e508674b6db51e279599363753e7a';
 weatherRequest.open('Get', apiURLstring, true);
 weatherRequest.send();
 
