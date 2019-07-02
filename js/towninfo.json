@@ -37,5 +37,18 @@
       "December 12: Light the Tree"
     ]
   },
+  {
+    "name": "Fish Haven",
+    "motto": "This is Fish Heaven.",
+    "yearFounded": 1864,
+    "currentPopulation": 501,
+    "averageRainfall": 14.20,
+    "events" : [
+      "April 1: How Big Was That Fish Day",
+      "May 15-30: Rush the Creek Days",
+      "July 24: Bear Lake Blunder Run",
+      "December 12: Light the Tree"
+    ]
+  }
  ]
 }
