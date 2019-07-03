@@ -1,0 +1,167 @@
+<!-- www.oracleskies.com-->
+<!-- $12/year according to https://domains.google.com/m/registrar/search?searchTerm=oracleskies.com&hl=en&_ga=2.197953839.1640035413.1557939629-1085832455.1557939629-->
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>OracleSkies | Soda Springs, ID</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="../css/normalize.css" type="text/css" />
+		<link rel="stylesheet" href="../css/oracleskies.css" type="text/css" />
+		<meta http-equiv="refresh" content="300" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="navbutton">
+					<li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+					<li><hr><a href="../index.html" title="Home">Home</a></li>
+					<li><a href="preston.html" title="Preston">Preston</a></li>
+					<li><a href="sodasprings.html" title="Soda Springs">Soda Springs</a></li>
+					<li><a href="fishhaven.html" title="Fish Haven">Fish Haven</a></li>
+					<li><a href="stormcenter.html" title="Storm Center">Storm Center</a></li>
+					<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+				</ul>
+				<ul class="navbar">
+					<li><a href="../index.html" title="Home">Home</a></li>
+					<li><a href="preston.html" title="Preston">Preston</a></li>
+					<li class="active"><a href="sodasprings.html" title="Soda Springs">Soda Springs</a></li>
+					<li><a href="fishhaven.html" title="Fish Haven">Fish Haven</a></li>
+					<li><a href="stormcenter.html" title="Storm Center">Storm Center</a></li>
+					<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+				</ul>
+			</nav>
+			<div class="title">
+				<img src="../images/oracleskieslogo2.png" alt="OracleSkies logo"/>
+				<div class="motto">
+					<h1>OracleSkies</h1><p>Look into the <em>Future</em> of Weather</p>
+				</div>
+			</div>
+		</header>
+		<hr><h1><span id="cc-name"></span></h1><hr>
+		<main>
+		
+		<!--WEATHER SUMMARY-->
+			<div class="block">
+				<h3>Current Weather Summary</h3><hr>
+				<div class="blockinside">
+					<div class="column1">
+						<img src="../images/SodaspringsID.png" alt="smalltown picture of Soda Springs">
+					</div>
+					<div class="column2">
+						<span id="cc-temp"></span> &deg;F<br>
+						<img id="cc-img" src="placeholder" alt="weather"><br>
+						<span id="cc-desc"></span><br>
+						<table>
+							<tr>
+								<td>Low - High: </td>
+								<td><span id="cc-lowtemp"></span>-<span id="cc-hightemp"></span> &deg;F</td>
+							</tr>
+							<tr>
+								<td>Humidity: </td>
+								<td><span id="cc-humidity"></span>%</td>
+							</tr>
+							<tr>
+								<td>Wind Speed: </td>
+								<td><span id="cc-windspeed"></span> mph</td>
+							</tr>
+							<tr>
+								<td>Wind Chill: </td>
+								<td><span id="cc-windchill"></span> &deg;F</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			
+			<!--LOCAL EVENTS-->
+			<div class="block">
+				<h3>Local Events</h3>
+					<hr>
+					<article id="townEventsPreston"></article>
+			</div><br>
+			
+			<!--RECENT ARTICLE-->
+			<div class="block">
+			<h3>Recent Articles</h3>
+				<p>(Taken from "My Local Radio", <a href="https://mylocalradio.com/">mylocalradio.com</a>)</p><hr>
+				<div class="column1">
+					<p>"14 Year-Old Male Shoots Self in Foot in Caribou County"</p><hr>
+					<p>Caribou County, ID.   –  On Monday, July 1st, at approximately 10:30 a.m., the Caribou County Sheriff’s Office received a report of a 14-year-old male that had accidentally discharged a firearm and the bullet had struck him in his right foot.</p>
+					<p>The victim was transported to the Caribou County Memorial Hospital for treatment by private vehicle.</p>
+					<p>The incident took place in the Slug Creek area in Caribou County, at a campground commonly referred to as Horse Shoe Bend. The victim had been hunting squirrels with a 12-year-old cousin. He had shot a few times and was getting ready to walk again and he decided to return the pistol to a safe position with the hammer de-cocked. While attempting to lower the hammer on the .22 LR caliber revolver, with his thumb and while the pistol was pointed downward, the hammer slipped from his thumb and fired the round into his right foot.</p>
+					<p>The injury, although serious, was not life-threatening and the victim is doing well. The victim did have training in hunter education, and gun safety and is an experienced shooter.</p>
+					<p>Please use caution when handling firearms and always follow firearm safety rules:</p>
+					<ul>
+						<li>Treat every gun as if it were loaded.</li>
+						<li>Keep the muzzle pointed in a safe direction.</li>
+						<li>Keep you finger off the trigger until your sights are on target and you have decided to fire.</li>
+						<li>Be certain of your target, your line of fire and what lies beyond your target.</li>
+					</ul>
+					<p>Read <a href="https://mylocalradio.com/14-year-old-male-shoots-self-in-foot-in-caribou-county/">here</a></p>
+				</div>
+			</div><br>
+			
+			<!--5 DAY FORECAST-->
+			<div class="block">			
+				<h3>5-Day Forecast</h3><hr>
+				<div class="blockinside">
+					<div class="column2">
+						<p id="day-1"></p>
+						<hr>
+						<img id="img-1" src="placeholder" alt="weather">
+						<p id="condition-1"></p>
+						<span id="low-1"></span>-<span id="high-1"></span>
+					</div>
+					<div class="column2">
+						<p id="day-2"></p>
+						<hr>
+						<img id="img-2" src="placeholder" alt="weather">
+						<p id="condition-2"></p>
+						<span id="low-2"></span>-<span id="high-2"></span>
+					</div>
+					<div class="column2">
+						<p id="day-3"></p>
+						<hr>
+						<img id="img-3" src="placeholder" alt="weather">
+						<p id="condition-3"></p>
+						<span id="low-3"></span>-<span id="high-3"></span>
+					</div>
+					<div class="column2">
+						<p id="day-4"></p>
+						<hr>
+						<img id="img-4" src="placeholder" alt="weather">
+						<p id="condition-4"></p>
+						<span id="low-4"></span>-<span id="high-4"></span>
+					</div>
+					<div class="column2">
+						<p id="day-5"></p>
+						<hr>
+						<img id="img-5" src="placeholder" alt="weather">
+						<p id="condition-5"></p>
+						<span id="low-5"></span>-<span id="high-5"></span>
+					</div>
+				</div><br><hr>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.9129901343!2d-111.6237913667209!3d42.66147063491468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda+Springs%2C+ID+83276!5e0!3m2!1sen!2sus!4v1562123592119!5m2!1sen!2sus" width="450" height="200"></iframe>
+			</div>
+		</main>
+
+		<footer>
+			<div class="socialmedia">
+				<a href="#"><img src="../images/Facebookicon.png" alt="FB icon" /></a>	
+				<a href="#"><img src="../images/Instagramicon.png" alt="Instagram icon" /></a>
+				<a href="#"><img src="../images/Twittericon.png" alt="Twitter icon"/></a>
+				<a href="#"><img src="../images/Emailicon.png" alt="Email icon" /></a>
+			</div>
+				<hr>
+				<p>All content &copy; David Olsen - CIT230 - BYU-Idaho || <script>document.write(new Date().toDateString());</script><br>
+				Current weather API information is taken from <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+		</footer>
+			<script src="../js/menubutton.js"></script>
+			<script src="../js/currentdate.js"></script>
+			<script src="../js/windchill.js"></script>
+			<script src="../js/jsoninfoSodaSprings.js"></script>
+			<script src="../js/weatherapiSodaSprings.js"></script>
+			<script src="../js/weatherForecastSodaSprings.js"></script>
+			<script src="../js/eventsSodaSprings.js"></script>
+	</body>
+</html>

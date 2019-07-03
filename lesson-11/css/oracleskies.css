@@ -1,0 +1,380 @@
+html, header, body, main, footer { 
+	margin: auto; 
+	padding: 5px; 
+	width: auto;
+	text-align: center; 
+	justify-content: center;} 
+main {
+	margin-top: 0px;
+	margin-bottom: 15px;}
+
+                            /* FORM INFORMATION */
+form {
+	margin: 0 auto;
+	padding: 0 5px;}
+p > label {
+	display: block;}
+	input[type=fullname],
+	input[type=email],
+	input[type=number],
+	input[type=tel],
+	input[type=zipcode],
+	input[type=stormdate],
+	input[type=stormtype],
+	input[type=number],
+	input[type=preston],
+	input[type=sugarcity],
+	input[type=fishhaven],
+	input[type=comment]{width:auto;}
+	textarea {min-width: 315px; max-width:315px;}
+fieldset {
+	border: 1px solid #333;
+	margin: 0;
+	font-size: .9em;
+	box-sizing: border-box;
+	text-align: left;}
+fieldset {
+	margin-bottom: 10px;}
+fieldset:last-child {
+	margin-bottom: 0px;}
+input:invalid {
+	box-shadow: 0 0 1px 1px red;}
+input:focus:invalid {
+	box-shadow: none;}
+option:first-of-type {
+  display: none;}
+
+                            /* NAVIGATION */
+nav {	
+	width: auto;
+	height: auto;
+	margin: 0 auto;	
+	background-color: #4CAF50;}
+.navbutton {
+	left: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 200px; 
+	background-color: #64be82;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	box-shadow: 1px 1px 8px #000000;}
+.navbutton li:first-child { 
+	background-color: #55a666;
+	display: block;}
+.navbutton li { 
+	display: none;}
+.navbutton a {	
+	display: block;	
+	color: #ffffff; 
+	padding: 1.2rem;	
+	text-align: center;	
+	text-decoration: none;}
+.navbutton a:hover {	
+	text-shadow: 1px 1px 1px #000000;
+	color: #ffffff; 
+	background-color: #55a666; 
+	box-shadow: inset 0 0 9px #000000}
+.responsive li { 
+	display: block; }
+nav hr {
+	margin: 0px; }
+
+                            /* LOGO */
+.title {
+	width: auto;
+	padding: 0px; 
+	margin: 0px;}
+.motto {
+	font-size: 1.2em;
+	margin-top: -130px;
+	margin-left: 80px;
+	text-shadow: -1px -1px 1px #ffffff;}
+.motto p {
+	margin-left: 80px;
+	margin-top: -5px; }
+.title img {
+	max-width: 480px;}
+.title h1 {
+	margin-top: 20px;
+	margin-left: 50px;
+	font-family: Matura MT Script Capitals, sans-serif;
+	font-size: 2.5em;
+	color: rgb(100,190,130);
+	text-shadow: 1px 1px 3px #000000;}
+p em {
+	color: red;}
+	
+                            /* MAIN CONTENT */	
+h1, h2, h3, h4, h5, h6 {
+	font-family: Egyptian Slate Std, sans-serif;
+	font-size: 3em;
+	color: rgb(100,190,130);
+	text-shadow: 1px 1px 1px #000000;
+	margin-bottom: 5px;
+	margin-top:5px;}
+hr {
+	margin: 8px; }
+.block {
+	margin: 10px;
+	width: auto;
+	max-width: 1000px;
+	display: inline-block;
+	background-color: rgb(100,190,130); 
+	padding: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	box-shadow: 3px 3px 5px #000000;}
+.blockinside {	
+	display: inline-block; 
+	text-align: center; 
+	justify-content: center;}
+.block img {
+	max-width: 100%;
+	z-index: -1;
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	box-shadow: 2px 2px 5px #000000;}
+.blockinside img {
+	width: auto;
+	border: none;
+	border-width: 0;
+	box-shadow: none; }
+.block h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000000;}
+.block p {
+	font-size: 1.2em;
+	margin-top: 0px;
+	color: #ffffff;}
+.block h3 {
+	color: #ffffff;
+	font-size: 1.8em;}
+.column1, .column2 {
+	color: #000000;
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 12px;
+	display: inline-block;
+	margin: 5px;
+	min-width: auto;
+	min-height: auto;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: inset 0 0 6px #000000;}
+.column1 img, section img {
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 10px 10px 10px 10px;
+	height: auto; }
+section img {
+	margin-bottom: 10px; }
+.column2 img {
+	border-radius: 10px 10px 10px 10px;
+	width: auto; }
+.column1 p {
+	margin: 10px;
+	text-align: left;
+	color: #000000;}
+.column1 li {
+	text-align: left;
+}
+.column1 p:nth-child(-n+1) {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center; }
+.column1 p:last-child {
+	text-align: right;}
+.column2 p {
+	color: #000000;
+	text-transform: uppercase;
+	margin-top: 0px;}
+#cc-temp {
+	font-size: 4em;}
+#cc-desc {
+	font-size: 1.5em;}
+#cc-img {
+	margin-top: -10px;
+	margin-bottom: -10px;
+	width: 100px;}
+tr {
+	justify-content: center;}
+td:first-child {
+	color: red;
+	text-align: right;}
+td:last-child {
+	text-align: left;}
+footer {
+	color: #ffffff;
+	background-color: #64be82;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;}
+footer p {
+	font-size: 120%;}
+iframe {
+	margin-top: 4px;
+	width: 100%;
+	padding: 0px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 9px 9px 9px 9px;}
+.socialmedia {
+	display: inline-block;
+	text-align: left; }
+.socialmedia img {
+	justify-content: space-between;
+	width: 40px; 
+	margin: 2px 50px 2px 50px; }
+.socialmedia img:hover {
+	border-radius: 5px 5px 5px 5px;
+	background-color: #55a666; 
+	box-shadow: 0px 0px 9px #55a666;}
+.grid-container {
+	display: inline-block;
+	grid-template-areas:
+	'header header header header header header'
+	'menu main main main right right'
+	'menu footer footer footer footer footer';
+	grid-gap: 10px;
+	max-width: 2000px}
+.grid-item {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 12px;
+	display: inline-block;
+	margin: 5px;
+	width: auto;
+	min-height: 50px;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 6px 6px 6px 6px;}
+.grid-item:hover, article .hover:hover {
+	box-shadow: 1px 1px 8px #000000;}
+	
+section div {
+	display: inline-block;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 12px;
+	display: inline-block;
+	margin: 5px;
+	width: 300px;
+	min-height: 50px;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: inset 0 0 6px #000000;}
+section div img {
+	width: 90%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: inset 0 0 6px #000000;}
+	
+.townsinfo {
+	display: inline-block;
+	padding: 2px;}
+article {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 20px;
+	display: inline-block;
+	margin: 20px;
+	width: auto;
+	min-height: 50px;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: inset 0 0 6px #000000;}
+article p {
+	margin: 0px; }
+article p:nth-child(7) {
+	font-weight: bold;
+	font-family: Egyptian Slate Std, sans-serif;
+	color: rgb(100,190,130);
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 10px;}
+article h2 {
+	margin: auto;}
+section h2 {
+	margin-bottom: 10px;}
+article h3 {
+	font-style: italic;
+	font-size: 1em;
+	font-family: sans-serif;
+	color: #000000;
+	text-shadow: none;}
+article ul {
+	padding-left: 35px;
+	margin: auto;
+	text-align: left;}
+
+                            /* MOBILE PHONE SETTINGS*/	
+@media screen and (max-width: 851px) {
+	.navbar {
+		display: none; }
+	.title {
+		margin-left: 120px;	}
+}
+
+                            /* LARGER SCREEN SETTINGS */
+@media screen and (min-width: 851px) {
+	nav {	
+		position: absolute;
+		justify-content: center;
+		margin: 0 auto;	}
+	.navbutton {
+		display: none; }
+	.navbar {
+		padding: 0px;
+		margin-top: 0px;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: auto; 
+		background-color: #64be82;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000000;}
+	.navbar li { 
+		display: inline-block; }
+	.active {
+		border-top: 2px solid #ffffff;
+		border-bottom: 2px solid #ffffff; }
+	.navbar a {
+		float: left;
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 18px; }
+	.navbar a:hover {
+		background-color: #55a666; 
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000; }
+	.title {
+		margin-top: 50px;}
+	iframe {
+		width: 100%;
+		height: 400px;}
+}
