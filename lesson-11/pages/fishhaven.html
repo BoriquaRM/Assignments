@@ -7,6 +7,7 @@
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="../css/normalize.css" type="text/css" />
 		<link rel="stylesheet" href="../css/oracleskies.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta http-equiv="refresh" content="600" />
 	</head>
 	<body>
@@ -37,7 +38,10 @@
 				</div>
 			</div>
 		</header>
+		<!-- 
 		<hr><h1><span id="cc-name"></span></h1><hr>
+		-->
+		<hr><h1>Fish Haven, ID</h1><hr>
 		<main>
 		
 		<!--WEATHER SUMMARY-->
@@ -54,7 +58,7 @@
 						<table>
 							<tr>
 								<td>Low - High: </td>
-								<td><span id="cc-lowtemp"></span>-<span id="cc-hightemp"></span> &deg;F</td>
+								<td><span id="cc-lowtemp"></span> - <span id="cc-hightemp"></span> &deg;F</td>
 							</tr>
 							<tr>
 								<td>Humidity: </td>
@@ -66,42 +70,11 @@
 							</tr>
 							<tr>
 								<td>Wind Chill: </td>
-								<td><span id="cc-windchill"></span> &deg;F</td>
+								<td><span id="windChill"></span> &deg;F</td>
 							</tr>
 						</table>
 					</div>
-				</div>
-			</div>
-			
-			<!--LOCAL EVENTS-->
-			<div class="block">
-				<h3>Local Events</h3>
-					<hr>
-					<article id="townEventsPreston"></article>
-			</div><br>
-			
-			<!--RECENT ARTICLE-->
-			<div class="block">
-			<h3>Recent Articles</h3><hr>
-			
-				<div class="column1">
-					<button class="collapsible">Click here to read</button>
-					<div class="content">
-					<p>"Review of <i>Citizen Kane</i>"<br>by David Olsen</p><hr>
-					<p>The introduction to the film Citizen Kane is barely 3 minutes long, but conveys as much detail as possible. The first sensation is that of sound – a low warbling melody of horns, bassoons and cellos, giving the beginning an eerie tingle of trepidation, suspense, and careful progression. As slow as the music flows, so too does the panning of the camera from one scene to another. This intentional slowness and discorded sound force a defense mechanism of dreaded anticipation.</p>
-					<p>From the handful of scenes that crawl by, we are introduced to the first tokens of information: a sign reading “No Trespassing”, posted on a set of imposing gates – each more fortified than the last; the silhouette of a grand mansion; and the innate byproducts of a royalty-designed home. Everything screams of prestigious importance.</p>
-					<p>The nature of the outer mansion area is vital to the initial story-telling, as it explains the type of family that resides here. There are gardens, iron-wrought gates bearing the K of their surname – Kane – and a family cemetery of ornately decorated crypts. These are key markers of a prominent family, high on the influential social ladder. Additional luxuries include an animal habitat – exotic monkeys and tigers – and a dock of small boats that empty into the sea. The mansion itself is imposing in size, siting atop a cliffside plateau, but the archways, turrets, towers and fine brickwork insist that a king may have ruled here.</p>
-					<p>Despite the luxurious castle-scape, it remains bathed in the eerie dusk of fear. The mansion appears more akin to a graveyard ruin for how much activity and attention is held, so they must not have any servants on hand anymore. The passing of archways and windows end their focus on the highest room, the tallest tower, and the only window that has any light pouring out of it. The music tenses, climaxes, abruptly stops on a strong violin note, and the lights suddenly go out. The camera fades inside the bedroom, looking outside, but a bed is cast between the camera and the window.</p>
-					<p>An old man lays in the bed, breathing out the only line of dialogue, “Rosebud”. Announcing his own passing, he releases his grip around a snow globe, which falls to the floor and shatters. Rosebud’s meaning is unclear, but deathbed pronouncements are typically the thing that mean the most to the dying person, or a deep regret that went unresolved. For this reason, Rosebud is hinted to be a focal point of the movie’s plot. The word was also echoed, as if voiced by a ghost from beyond the mortal veil. A nurse walks in, unstartled by his passing, and crosses the room to stand beside him. In a determined motion, she crosses his arms and lays his sheet all the way up and over his head. This pose is solely reserved for the peacefully deceased, but her face is shrouded in darkness, so her expression is impossible to discern. Did she know how he died? Did she have any part in it? What led to this moment?</p>
-					<p>The use of music in this short movie clip is effective in invoking suspensful mystery. Panning over the abandoned land and ending at the death of the one who owns it all shows a decay that had already taken place, and this death that finalized its legacy. The thoughts are troubling, because no motive can be deduced. Aside from the nurse, no other characters exist. Questions arise as to the character of this man: Why did he have to die? Why was he alone? What importance did his ancestral family have in such a place? Who was the nurse?</p>
-					<p>Based on what we know about this man, it’s that he was rich, skeptical and alone. due to the “No Trespassing” sign and multiple gates barring entrance to his extravagant home. The potential plot seeps in mysterious death, potential murder, and sinister intentions. The vast emptiness of the unknown makes for morbid suspense to find out.
-					<p>THE END</p>
-					</div>
-				</div>
-			</div><br>
-			
-			<!--5 DAY FORECAST-->
-			<div class="block">			
+				</div><hr>
 				<h3>5-Day Forecast</h3><hr>
 				<div class="blockinside">
 					<div class="column2">
@@ -139,7 +112,43 @@
 						<p id="condition-5"></p>
 						<span id="low-5"></span>-<span id="high-5"></span>
 					</div>
-				</div><br><hr>
+				</div>
+			</div>
+			
+			<!--LOCAL EVENTS-->
+			<div class="block">
+				<h3>Local Events</h3>
+					<hr>
+					<article id="townEventsPreston"></article>
+			</div><br>
+			
+			<!--RECENT ARTICLE-->
+			<div class="block">
+			<h3>Recent Articles</h3><hr>
+			
+				<div class="column1">
+					<button class="collapsible">Click here to read</button>
+					<div class="content">
+					<p>"Review of <i>Citizen Kane</i>"<br>by David Olsen</p><hr>
+					<img class="articleimg" src="../images/Rainy.png" alt="filler image" align="left" />
+					<p>The introduction to the film Citizen Kane is barely 3 minutes long, but conveys as much detail as possible. The first sensation is that of sound – a low warbling melody of horns, bassoons and cellos, giving the beginning an eerie tingle of trepidation, suspense, and careful progression. As slow as the music flows, so too does the panning of the camera from one scene to another. This intentional slowness and discorded sound force a defense mechanism of dreaded anticipation.</p>
+					<p>From the handful of scenes that crawl by, we are introduced to the first tokens of information: a sign reading “No Trespassing”, posted on a set of imposing gates – each more fortified than the last; the silhouette of a grand mansion; and the innate byproducts of a royalty-designed home. Everything screams of prestigious importance.</p>
+					<img class="articleimg" src="../images/Thunderstorm.png" alt="filler image" align="right" />
+					<p>The nature of the outer mansion area is vital to the initial story-telling, as it explains the type of family that resides here. There are gardens, iron-wrought gates bearing the K of their surname – Kane – and a family cemetery of ornately decorated crypts. These are key markers of a prominent family, high on the influential social ladder. Additional luxuries include an animal habitat – exotic monkeys and tigers – and a dock of small boats that empty into the sea. The mansion itself is imposing in size, siting atop a cliffside plateau, but the archways, turrets, towers and fine brickwork insist that a king may have ruled here.</p>
+					<p>Despite the luxurious castle-scape, it remains bathed in the eerie dusk of fear. The mansion appears more akin to a graveyard ruin for how much activity and attention is held, so they must not have any servants on hand anymore. The passing of archways and windows end their focus on the highest room, the tallest tower, and the only window that has any light pouring out of it. The music tenses, climaxes, abruptly stops on a strong violin note, and the lights suddenly go out. The camera fades inside the bedroom, looking outside, but a bed is cast between the camera and the window.</p>
+					<img class="articleimg" src="../images/Sun.png" alt="filler image" align="left" />
+					<p>An old man lays in the bed, breathing out the only line of dialogue, “Rosebud”. Announcing his own passing, he releases his grip around a snow globe, which falls to the floor and shatters. Rosebud’s meaning is unclear, but deathbed pronouncements are typically the thing that mean the most to the dying person, or a deep regret that went unresolved. For this reason, Rosebud is hinted to be a focal point of the movie’s plot. The word was also echoed, as if voiced by a ghost from beyond the mortal veil. A nurse walks in, unstartled by his passing, and crosses the room to stand beside him. In a determined motion, she crosses his arms and lays his sheet all the way up and over his head. This pose is solely reserved for the peacefully deceased, but her face is shrouded in darkness, so her expression is impossible to discern. Did she know how he died? Did she have any part in it? What led to this moment?</p>
+					<p>The use of music in this short movie clip is effective in invoking suspensful mystery. Panning over the abandoned land and ending at the death of the one who owns it all shows a decay that had already taken place, and this death that finalized its legacy. The thoughts are troubling, because no motive can be deduced. Aside from the nurse, no other characters exist. Questions arise as to the character of this man: Why did he have to die? Why was he alone? What importance did his ancestral family have in such a place? Who was the nurse?</p>
+					<p>Based on what we know about this man, it’s that he was rich, skeptical and alone. due to the “No Trespassing” sign and multiple gates barring entrance to his extravagant home. The potential plot seeps in mysterious death, potential murder, and sinister intentions. The vast emptiness of the unknown makes for morbid suspense to find out.
+					<p>THE END</p>
+					</div>
+				</div>
+			</div><br>
+			
+			<!--5 DAY FORECAST-->
+			<div class="block">			
+				<h3>Map of Fish Haven</h3>
+				<hr>
 				
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11852.958830505177!2d-111.40486806217935!3d42.03803991735526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish+Haven%2C+ID+83287!5e0!3m2!1sen!2sus!4v1562122983728!5m2!1sen!2sus" width="450" height="200"></iframe>
 			</div>
@@ -151,6 +160,16 @@
 				<a href="#"><img src="../images/Instagramicon.png" alt="Instagram icon" /></a>
 				<a href="#"><img src="../images/Twittericon.png" alt="Twitter icon"/></a>
 				<a href="#"><img src="../images/Emailicon.png" alt="Email icon" /></a>
+				<table>
+					<tbody>
+						<tr>
+							<td><i style="font-size:40px" class="fa">&#xf095;</i></td>
+							<td>(123) 456-7890</td>
+							<td><i style="font-size:40px" class="fa">&#xf2b9;</i></td>
+							<td>123 Place Dr<br>City, ST 12345</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 				<hr>
 				<p>All content &copy; David Olsen - CIT230 - BYU-Idaho || <script>document.write(new Date().toDateString());</script><br>
@@ -159,7 +178,6 @@
 			<script src="../js/menubutton.js"></script>
 			<script src="../js/collapse.js"></script>
 			<script src="../js/currentdate.js"></script>
-			<script src="../js/windchill.js"></script>
 			<script src="../js/jsoninfoFishHaven.js"></script>
 			<script src="../js/weatherapiFishHaven.js"></script>
 			<script src="../js/weatherForecastFishHaven.js"></script>
