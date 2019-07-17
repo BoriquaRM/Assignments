@@ -1,0 +1,38 @@
+{
+  "towns" : [
+  {
+    "name": "Phoenix",
+    "events" : [
+      "July 13 - 14: Experience France",
+      "September 7: Mummies of the World: The Exhibition",
+	  "September 15: The Electric Guitar: Inventing an American Icon",
+	  "September 29: Color Riot! How Color Changed Navajo Textiles"
+    ]
+  },
+  {
+    "name": "Tucson",
+    "events" : [
+      "November 23: El Tour de Tucson",
+	  "January 10-20: Tucson Jazz Festival",
+	  "February 1 - 16: Tucson Gem, Mineral & Fossil Showcase",
+      "February 15 - 23: Tucson Rodeo & Parade "
+    ]
+  },
+  {
+    "name": "Glendale",
+    "events" : [
+      "July 25: Concerts on the Lawn",
+      "July 31: National Park & Recreation Month",
+      "August 23: Harlem Globetrotters"
+    ]
+  },
+  {
+    "name": "Mesa",
+    "events" : [
+	  "July 1 - July 31: Christmas in July! at Organ Stop Pizza",
+      "September 26: Adult Cooking Classes",
+      "August 11: Cider & Scribbles"
+    ]
+  }
+ ]
+}
