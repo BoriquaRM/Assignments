@@ -15,7 +15,7 @@ function showData(jsonObj) {
 
     for (var i = 0; i < towns.length; i++) {
         var myList = document.createElement('ul');
-        if (towns[i].name == "Fish Haven") {
+        if (towns[i].name == "Phoenix") {
             var events = towns[i].events;
             for (var x = 0; x < events.length; x++) {
                 var listItem = document.createElement('li');
