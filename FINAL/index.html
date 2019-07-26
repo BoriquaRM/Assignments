@@ -9,49 +9,57 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<img class="topimage" src="images/mountains.png" alt="Room at the Inn logo" />
+		<img class="topimage" src="images/mountains2.png" alt="Room at the Inn logo" />
 		<div class="maintitle">
 			<h1>"Room at the Inn"</h1>
+			<img class="logoimg" src="images/logo.png" alt="logo for Room at the Inn" />
 		</div>
 		<header>
 			<nav>
-				<img src="images/logo.png" alt="logo for Room at the Inn" />
 				<ul>
 					<li><a href="index.html" class="active">Home</a></li>
-					<li><a href="pages/temple.html">Temple</a></li>
-					<li><a href="pages/services.html">Services</a></li>
-					<li><a href="pages/contact.html">Contact</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">Temples</button>
+						<div class="dropdown-content">
+							<a href="pages/templePhoenix.html">Phoenix</a>
+							<a href="pages/templeGilbert.html">Gilbert</a>
+							<a href="pages/templeTucson.html">Tucson</a>
+							<a href="pages/templeMesa.html">Mesa</a>
+						</div>
+						</div>
+					</li>
+					<li><a href="pages/reservations.html">Reservations</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">Services</button>
+						<div class="dropdown-content">
+							<a href="pages/reception.html">Reception</a>
+							<a href="pages/fulltimemissionaries.html">FT Missionary</a>
+						</div>
+						</div>
+					</li>
 					<li><a href="pages/gallery.html">Gallery</a></li>
 				</ul>
 			</nav>		
 		</header>
-		<main>
-		<div class="grid-container">
-<!-- Top -->
-			<div class="item1">
-				<h1>- Welcome -</h1>
-			</div>
-<!-- Left -->
-			<div class="item2">
-				<img src="images/PhoenixTemple4.png" alt="Phoenix temple" title="Phoenix, AZ temple" />
-				<img src="images/PhoenixTemple2.png" alt="Phoenix temple" title="Phoenix, AZ temple" />
-				<img src="images/PhoenixTemple6.png" alt="Phoenix temple" title="Phoenix, AZ temple" />
-			</div>
+
 <!-- Main -->
-			<div class="item3"><hr>
-				<p>A hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
-				<p>The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons.</p>
-				<p>The overall goal of the website project is to promote and provide information about the specialized services that this hotel chain offers to meet the needs of temple patrons who come to serve in the temple or who participate in events such as sealings, weddings, receptions, and youth trips.</p>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.3986198322173!2d-112.17445524869575!3d33.69863284363328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b663e9366b441%3A0xbe12e2001be16137!2sPhoenix+Arizona+Temple!5e0!3m2!1sen!2sus!4v1563330263461!5m2!1sen!2sus" width="600" height="500" allowfullscreen></iframe>
-			</div>  
-<!-- Right -->
-			<div class="item4">
-				<img src="images/PhoenixTemple1.png" alt="Phoenix temple" title="Phoenix, AZ temple" />
-				<img src="images/PhoenixTemple5.png" alt="Phoenix temple" title="Phoenix, AZ temple" />
-				<img src="images/PhoenixTemple3.png" alt="Phoenix temple" title="Phoenix, AZ temple" />
+		<main>
+			<div class="grid-container">
+
+				<div class="item3">
+					<h1>Welcome</h1><hr>
+					<p>A hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
+					<p>The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons.</p>
+					<p>The overall goal of the website project is to promote and provide information about the specialized services that this hotel chain offers to meet the needs of temple patrons who come to serve in the temple or who participate in events such as sealings, weddings, receptions, and youth trips.</p>
+					<hr><h2>Nearby Events:</h2><hr>
+					<section></section>
+				</div>  
 			</div>
-		</div>
 		</main>
+		
+<!-- Footer -->
 		<footer>
 			<div class="socialmedia">
 				<a href="#"><img src="images/Facebookicon.png" alt="FB icon" title="Facebook" /></a>	
@@ -63,16 +71,17 @@
 					<tbody>
 						<tr>
 						<td><i style="font-size:40px" class="fa" title="Phone">&#xf095;</i></td>
-						<td>(123) 456-7890</td>
-						<td><i style="font-size:40px" class="fa" title="Address Book">&#xf2b9;</i></td>
+						<td>Office: (123) 456-7890<br>Fax: (987) 654-3210</td>
+						<td><i style="font-size:40px" class="fa" title="HQ Address">&#xf2b9;</i></td>
 						<td>4800 Montgomery Ln #300<br>Bethesda, MD 20814</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>	
-			<p>All content &copy; David Olsen - CIT230, BYU-Idaho - <script>document.write(new Date().toDateString());</script></p>		
+			<p>All content &copy; David Olsen - CIT230, BYU-Idaho - Weather API from <a href="https://www.openweathermap.org">openweathermap.org</a>
+			<br><script>document.write(new Date().toDateString());</script></p>		
 		</footer>
-			<script src="scripts/menubutton.js"></script>
+			<script src="scripts/Events.js"></script>
 			<script src="scripts/currentdate.js"></script>
 	</body>
 </html>
