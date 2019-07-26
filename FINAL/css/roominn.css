@@ -101,7 +101,7 @@ header {
 	top: 0;
 	z-index: 10;}
 .topimage {
-	width: auto;}
+	width: -moz-available;}
 .logoimg {
 	max-width: 130px;
 	}
